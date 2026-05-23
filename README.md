@@ -18,9 +18,11 @@ If you use this work, please cite the corresponding paper in accordance with sta
 ## Repository Structure
 
 ```text
-src/        Main source code
-data/       Input data (if applicable)
-results/    Output tables and figures
+bld/       Figures and simulation results for the paper and more
+src/       Python classes and script
+LICENSE    License file
+README.md  README file
+requirements.txt  Python dependencies
 ```
 
 ---
@@ -57,7 +59,7 @@ python src/script.py
 py src/script.py
 ```
 
-All outputs will be generated in the `results/` directory.
+All outputs will be generated in the `bld/` directory.
 
 ---
 
@@ -69,8 +71,6 @@ The paper remains the intellectual property of the author.
 
 ---
 
-## Paper
+## Contact
 
-Full paper available here:
-
-https://ssrn.com/abstract=6778301
+For questions or comments, please contact Simon Paul Reuter at simonreuter41@gmail.com
