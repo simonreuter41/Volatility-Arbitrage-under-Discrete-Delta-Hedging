@@ -18,7 +18,7 @@ If you use this work, please cite the corresponding paper in accordance with sta
 ## Repository Structure
 
 ```text
-bld/       Figures and simulation results for the paper
+bld/       Figures and simulation results
 src/       Python classes and script
 LICENSE    License file
 README.md  README file
