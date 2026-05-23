@@ -1,2 +1,37 @@
 # Volatility-Arbitrage-under-Discrete-Delta-Hedging
-In this repository the paper on Volatility Arbitrage under Discrete Delta Hedging along with the relevant code for the simulations is uploaded.
+
+This repository contains the code for the paper 
+
+### "Volatility Arbitrage under Discrete Delta Hedging" by [Simon Paul Reuter](https://ssrn.com/abstract=6778301)
+
+If you use this code, please cite the paper.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Set up
+
+```bash
+
+    # Create a virtual environment
+    python -m venv venv
+
+    or py -m venv venv
+
+    # Activate the virtual environment
+    # On Windows:
+    venv\Scripts\activate
+
+    # Install the required packages
+    pip install -r requirements.txt
+```
+
+## Usage
+
+To run the code, simply execute the `script.py` file:
+
+```bash
+    python src/script.py 
+    or py src/script.py
+```
