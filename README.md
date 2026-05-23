@@ -12,6 +12,7 @@ Paper: https://ssrn.com/abstract=6778301
 ## Citation
 
 If you use this work, please cite the corresponding paper in accordance with standard academic practice.
+
 ---
 
 ## Repository Structure
