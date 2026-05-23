@@ -2,7 +2,9 @@
 
 This repository contains the code for the paper 
 
-### "Volatility Arbitrage under Discrete Delta Hedging" by [Simon Paul Reuter](https://ssrn.com/abstract=6778301)
+### "Volatility Arbitrage under Discrete Delta Hedging" by Simon Paul Reuter (SSRN ID: 6778301).
+
+Link to the paper: https://ssrn.com/abstract=6778301
 
 If you use this code, please cite the paper.
 
