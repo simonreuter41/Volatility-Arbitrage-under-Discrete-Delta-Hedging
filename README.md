@@ -70,6 +70,7 @@ This is due to the fully vectorized implementation, which stores and processes a
 If memory limitations are encountered, the number of rebalancing steps can be reduced. However, this will not perfectly replicate the results presented in the paper.
 
 A more memory-efficient and computationally faster implementation in C++ is planned for a future release. Results will not be bitwise identical due to differences in numerical precision and random number generation, but the main results will remain unchanged.
+
 ---
 
 ## License
