@@ -61,6 +61,12 @@ py src/script.py
 
 All outputs will be generated in the `bld/` directory.
 
+### Remark on RAM Usage
+
+The script may require a significant amount of RAM (up to 24 GB) for the final simulation with N=100,000 paths. This is due to the process 
+being vectorized. If you encounter memory issues, consider reducing the number of paths. This however will of course not perfectly replicate the graphs in the paper.
+I will upload a optimized version of the code in C++ in the future, which will be more memory efficient and faster.
+
 ---
 
 ## License
