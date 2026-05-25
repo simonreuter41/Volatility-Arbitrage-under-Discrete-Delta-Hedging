@@ -63,7 +63,7 @@ All outputs will be generated in the `bld/` directory.
 
 ### Remark on RAM Usage
 
-The script may require a significant amount of memory in the full simulation setup with \(n = 100{,}000\) rebalancing time steps.
+The script may require a significant amount of memory in the full simulation setup with n = 100,000 rebalancing time steps.
 
 This is due to the fully vectorized implementation, which stores and processes all simulated paths across the entire time grid simultaneously.
 
