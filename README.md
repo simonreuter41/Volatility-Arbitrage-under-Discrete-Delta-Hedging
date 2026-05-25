@@ -63,10 +63,13 @@ All outputs will be generated in the `bld/` directory.
 
 ### Remark on RAM Usage
 
-The script may require a significant amount of RAM (up to 24 GB) for the final simulation with N=100,000 paths. This is due to the process 
-being vectorized. If you encounter memory issues, consider reducing the number of paths. This however will of course not perfectly replicate the graphs in the paper.
-I will upload a optimized version of the code in C++ in the future, which will be more memory efficient and faster.
+The script may require a significant amount of memory in the full simulation setup with \(n = 100{,}000\) rebalancing time steps.
 
+This is due to the fully vectorized implementation, which stores and processes all simulated paths across the entire time grid simultaneously.
+
+If memory limitations are encountered, the number of rebalancing steps can be reduced. However, this will not perfectly replicate the results presented in the paper.
+
+A more memory-efficient and computationally faster implementation in C++ is planned for a future release. Results will not be bitwise identical due to differences in numerical precision and random number generation, but the main results will remain unchanged.
 ---
 
 ## License
